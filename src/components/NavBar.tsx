@@ -26,11 +26,11 @@ const navElements = [
 const NavBar = () => {
   return (
     <div className='bg-black h-[7vh] text-white p-2 px-20  flex flex-row content-center justify-between fixed top-0 left-0 right-0'>
-        <p className='my-auto mx-4 text-3xl'><a href='#'>Sudhanshu Srivastava</a></p>
+        <p className='my-auto mx-4 text-3xl'><a href='#'><span className='text-br-red font-black'>//</span>Sudhanshu Srivastava</a></p>
         <div className='flex justify-between text-base '>
             {
                 navElements.map(element => (
-                    <p className=' my-auto mx-4'>
+                    <p className=' my-auto mx-4 hover:text-br-red'>
                      <a href={element.url}>
                         {element.text}
                         </a>   

@@ -7,7 +7,7 @@ import Technologies from "./Technologies";
 const Skills = () => {
   return (
     <div className="h-[93vh] pt-24 px-24" id="skills">
-      <h2 className="text-4xl">$Skills</h2>
+      <h2 className="text-4xl"><span className='text-br-red font-black'>$</span>Skills</h2>
 
       <div className="flex flex-col max-w-5xl mx-auto mt-12">
         <div>

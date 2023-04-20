@@ -41,7 +41,7 @@ const Footer = () => {
         </div>
 
         <div className='m-2'>
-            <p className='text-center'>Designed and developed by <a>Sudhanshu Srivastava</a> with {'<'}3.</p>
+            <p className='text-center'>Designed and developed by <span className='text-br-red font-black'><a>Sudhanshu Srivastava</a></span> with <span className='text-br-red font-black'>{'<'}3</span>.</p>
         </div>
     </div>
   )
