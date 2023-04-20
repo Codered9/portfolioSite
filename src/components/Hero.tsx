@@ -14,7 +14,7 @@ const Hero = () => {
             Web Developer \<br />
             Cyber Security Student \<br />
             Blockchain Beginner \<br />
-            Professional Procrastinator \<br />( P.s. this site is THE PROOF)
+            Professional Procastinator \<br />( P.s. this site is THE PROOF)
           </p>
         </div>
       </div>

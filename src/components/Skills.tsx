@@ -11,22 +11,25 @@ const Skills = () => {
 
       <div className="flex flex-col max-w-5xl mx-auto mt-12">
         <div>
-          <h3 className="text-3xl">{">"}Certifications</h3>
+          <h3 className="text-3xl">{"> "}Certifications</h3>
           <div className="mt-4 ml-16">
             {certs.map((cert,index) => (
+                <div className="inline-flex">
+                <span className='text-2xl mr-2'>{">"}</span>
               <Certifications
                 name={cert.name}
                 startDate={cert.startDate}
                 endDate={cert.endDate}
                 url={cert.url}
                 // index={index}
-              />
+                />
+                </div>
             ))}
           </div>
         </div>
 
         <div className="mt-12">
-          <h3 className="text-3xl">{">"}Technologies</h3>
+          <h3 className="text-3xl">{"> "}Technologies</h3>
           <div className="grid grid-cols-2 gap-12 pt-12 px-12">
             {TechSkills.map((tech,index) => (
               <Technologies heading={tech.heading} skills={tech.skills} />
