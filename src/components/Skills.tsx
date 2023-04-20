@@ -6,7 +6,7 @@ import Technologies from "./Technologies";
 
 const Skills = () => {
   return (
-    <div className="h-[93vh] pt-24 px-24" id="skills">
+    <div className="min-h-[93vh] pt-8 md:pt-24 px-8 md:px-24" id="skills">
       <h2 className="text-4xl"><span className='text-br-red font-black'>$</span>Skills</h2>
 
       <div className="flex flex-col max-w-5xl mx-auto mt-12">
@@ -15,7 +15,7 @@ const Skills = () => {
           <div className="mt-4 ml-16">
             {certs.map((cert,index) => (
                 <div className="inline-flex">
-                <span className='text-2xl mr-2'>{">"}</span>
+                <span className='text-xl md:text-2xl mr-2'>{">"}</span>
               <Certifications
                 name={cert.name}
                 startDate={cert.startDate}
@@ -30,7 +30,7 @@ const Skills = () => {
 
         <div className="mt-12">
           <h3 className="text-3xl">{"> "}Technologies</h3>
-          <div className="grid grid-cols-2 gap-12 pt-12 px-12">
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-12 pt-12 px-12">
             {TechSkills.map((tech,index) => (
               <Technologies heading={tech.heading} skills={tech.skills} />
             ))}

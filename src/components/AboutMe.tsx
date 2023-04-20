@@ -2,11 +2,11 @@ import React from "react";
 
 const AboutMe = () => {
   return (
-    <div className="h-[93vh] pt-24 px-24 " id="aboutme">
+    <div className="h-[93vh] pt-24 px-8 md:px-24 " id="aboutme">
       <div>
         <h2 className="text-4xl"><span className='text-br-red font-black'>$</span>About Me</h2>
 
-        <div className="text-2xl mx-auto mt-24 max-w-5xl flex flex-col gap-8">
+        <div className="text-xl md:text-2xl mx-auto mt-8 md:mt-24 max-w-5xl flex flex-col gap-8 text-justify md:text-left">
           <p className="">
             Hi, I am Sudhanshu Srivastava. I fell in love with computers in a
             very early age of life. Grew up breaking them, then fixing them and

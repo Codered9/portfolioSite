@@ -26,15 +26,15 @@ const contactURLS: {
 
 const Footer = () => {
   return (
-    <div className='h-[14vh] bg-black flex flex-col text-white justify-between'>
-        <div className='flex gap-4 justify-between mx-28 my-8'>
+    <div className='min-h-[14vh] bg-black flex flex-col text-white justify-between'>
+        <div className='flex flex-row gap-8 justify-between max-w-xs mx-auto my-8'>
              {
                 contactURLS.map(url => (
                     <div className='inline-flex gap-6'>
                     <a href={url.url}>
-                    <img src={url.logo}/>
+                    <img src={url.logo} className='h-8'/>
                     </a>
-                    <span className='mt-1'>{url.desc}</span>
+                    <span className='mt-1 hidden'>{url.desc}</span>
                     </div>
                 ))
              }

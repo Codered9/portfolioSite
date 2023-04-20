@@ -25,9 +25,9 @@ const navElements = [
 
 const NavBar = () => {
   return (
-    <div className='bg-black h-[7vh] text-white p-2 px-20  flex flex-row content-center justify-between fixed top-0 left-0 right-0'>
-        <p className='my-auto mx-4 text-3xl'><a href='#'><span className='text-br-red font-black'>//</span>Sudhanshu Srivastava</a></p>
-        <div className='flex justify-between text-base '>
+    <div className='bg-black h-[7vh] md:h-[7vh] text-white p-2 px-2 md:px-20  flex flex-row content-center justify-between md:fixed md:top-0 md:left-0 md:right-0 '>
+        <p className='my-auto mx-2 md:mx-4 text-2xl md:text-3xl'><a href='#'><span className='text-br-red font-black'>//</span><span className=''>Sudhanshu Srivastava</span></a></p>
+        <div className='hidden md:flex justify-between text-base '>
             {
                 navElements.map(element => (
                     <p className=' my-auto mx-4 hover:text-br-red'>
