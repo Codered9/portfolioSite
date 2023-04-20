@@ -4,7 +4,7 @@ const AboutMe = () => {
   return (
     <div className="h-[93vh] pt-24 px-24 " id="aboutme">
       <div>
-        <p className="text-4xl">$About Me</p>
+        <h2 className="text-4xl">$About Me</h2>
 
         <div className="text-2xl mx-auto mt-24 max-w-5xl flex flex-col gap-8">
           <p className="">

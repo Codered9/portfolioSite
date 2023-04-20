@@ -7,7 +7,7 @@ const navElements = [
     },
     {
         text: "Skills",
-        url: "/"
+        url: "#skills"
     },
     {
         text: "Projects",
