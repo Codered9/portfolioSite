@@ -13,7 +13,7 @@ const Technologies = (props: {
         {"> "}
         {props.heading}
       </h4>
-      <div className="p-2 px-6">
+      <div className="p-2 md:px-6">
         {props.skills.map((obj) => (
           <div className="flex flex-row justify-between text-lg">
             <p>
