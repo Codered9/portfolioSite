@@ -9,10 +9,10 @@ const navElements = [
         text: "Skills",
         url: "#skills"
     },
-    // {
-    //     text: "Projects",
-    //     url: "/"
-    // },
+    {
+        text: "Projects",
+        url: "#projects"
+    },
     {
         text: "Resume",
         url: "#resume"
@@ -25,7 +25,7 @@ const navElements = [
 
 const NavBar = () => {
   return (
-    <div className='bg-black h-[7vh] md:h-[7vh] text-white p-2 px-2 md:px-20  flex flex-row content-center justify-between md:fixed md:top-0 md:left-0 md:right-0 '>
+    <div className='bg-black h-[7vh] md:h-[7vh] text-white p-2 px-2 md:px-20  flex flex-row content-center justify-between md:fixed md:top-0 md:left-0 md:right-0 z-[9999]'>
         <p className='my-auto mx-2 md:mx-4 text-2xl md:text-3xl'><a href='#'><span className='text-br-red font-black'>//</span><span className=''>Sudhanshu Srivastava</span></a></p>
         <div className='hidden md:flex justify-between text-base '>
             {
