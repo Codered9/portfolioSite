@@ -31,7 +31,8 @@ const Footer = () => {
              {
                 contactURLS.map(url => (
                     <div className='inline-flex gap-6'>
-                    <a href={url.url}>
+                    <a href={url.url}  target="_blank"
+        rel="noopener noreferrer">
                     <img src={url.logo} className='h-8'/>
                     </a>
                     <span className='mt-1 hidden'>{url.desc}</span>

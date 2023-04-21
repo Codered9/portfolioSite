@@ -8,7 +8,7 @@ const ProjectsCard = (props:{
   return (
 <div className="bg-blacked text-white rounded-lg shadow-lg p-6 relative max-w-sm mx-auto" >
 <p className='text-2xl'>{'>'}{" "}{props.name}</p>
-<div className=" mb-12">
+<div className="mt-6 mb-12">
   { props.desc.map((obj,index) => (
                  <p key={index}>{'~'}{" "}{obj}</p>
                ))}
