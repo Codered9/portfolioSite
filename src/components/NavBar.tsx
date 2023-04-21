@@ -9,10 +9,10 @@ const navElements = [
         text: "Skills",
         url: "#skills"
     },
-    // {
-    //     text: "Projects",
-    //     url: "/"
-    // },
+    {
+        text: "Projects",
+        url: "#projects"
+    },
     {
         text: "Resume",
         url: "#resume"
